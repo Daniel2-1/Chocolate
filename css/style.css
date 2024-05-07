@@ -1,0 +1,143 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+margin-top: 0;
+margin-bottom: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+address{
+    font-family: normal;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.container{
+    width: 335px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* 1 */
+.mob-menu{
+    
+width: 220px;
+    min-height: 812px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #1e1823;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-btn{
+    position: absolute;
+    margin: 0 auto;
+}
+
+.menu-btn-2 {
+    display: block;
+    margin-left: auto;
+    border: none;
+    width: 28px;
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 80px;
+}
+
+.menu-nav {
+    align-items: center;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.menu-item {
+    
+}
+
+.menu-link {
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: -0.28px;
+}
+
+.extra {
+    color: var(--orange, #FD9222);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.28px;}
+
+.menu-second-list {}
+
+.menu-second-item {}
+
+.menu-second-link {}
+
